@@ -1,5 +1,6 @@
 package br.com.jardim.calculatorspringbootandjava.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,7 +13,8 @@ import br.com.jardim.calculatorspringbootandjava.math.Operations;
 @RestController
 public class MathController {
 
-        private Operations calc = new Operations();
+    @Autowired
+    private Operations calc  ;
         
 
     @RequestMapping(value = "/sum/{numberOne}/{numberTwo}", method = RequestMethod.GET)
