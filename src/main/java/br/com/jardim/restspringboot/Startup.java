@@ -1,4 +1,4 @@
-package br.com.jardim.calculatorspringbootandjava;
+package br.com.jardim.restspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

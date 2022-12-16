@@ -10,14 +10,14 @@
 
     </parent>
     <groupId>br.com.jardim</groupId>
-    <artifactId>restspringboot</artifactId>
+    <artifactId>rest_with_spring_boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>restspringboot</name>
+    <name>rest_with_spring_boot</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>19</java.version>
-        <dozer.version>6.5.2</dozer.version>
+        <dozer.version>6.4.0</dozer.version>
     </properties>
 
     <dependencies>
@@ -54,14 +54,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
-        </dependency>
-
 
 
         <dependency>

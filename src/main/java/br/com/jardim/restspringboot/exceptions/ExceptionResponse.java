@@ -1,4 +1,4 @@
-package br.com.jardim.calculatorspringbootandjava.exceptions;
+package br.com.jardim.restspringboot.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;
