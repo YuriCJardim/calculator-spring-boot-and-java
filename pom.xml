@@ -7,15 +7,19 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
+
     </parent>
     <groupId>br.com.jardim</groupId>
-    <artifactId>calculator-with-spring-boot-and-java</artifactId>
+    <artifactId>restspringboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>calculator-with-spring-boot-and-java</name>
+    <name>restspringboot</name>
     <description>Demo project for Spring Boot</description>
+
     <properties>
         <java.version>19</java.version>
+        <dozer.version>6.5.2</dozer.version>
     </properties>
+
     <dependencies>
 
         <dependency>
@@ -29,6 +33,21 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.dozermapper</groupId>
+            <artifactId>dozer-core</artifactId>
+            <version>${dozer.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -42,6 +61,8 @@
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
+
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
